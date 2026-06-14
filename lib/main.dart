@@ -450,7 +450,7 @@ create policy "Allow public delete" on public.names for delete using (true);
                   child: TextFormField(
                     controller: _nameController,
                     decoration: InputDecoration(
-                      hintText: 'e.g. Lakshyajeet Singh',
+                      hintText: 'e.g. Bilbo Baggins',
                       hintStyle: TextStyle(color: Colors.white.withOpacity(0.3)),
                       filled: true,
                       fillColor: Colors.black.withOpacity(0.2),
